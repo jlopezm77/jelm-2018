@@ -1,0 +1,121 @@
+
+    
+body{
+    
+    font-family: 'Muli', sans-serif;
+    margin-left:0;
+    margin-right:0;
+}
+   
+
+    header {
+        color: #43525A;
+            }
+
+
+            
+            .contenedor-superior {
+                position:fixed;
+                top: 0;
+                height: 100px;
+                left:0;
+                right:0;
+                background-color: #CCC;
+
+            }
+
+            .renglon-contenedor-superior
+            {
+                display: flex;
+            }
+
+            .columnas-contenedor-superior
+            {
+                display: inline-block;
+                width: 33%;
+            }
+            .logo-ppl
+            {   
+                display: block;
+
+            }
+
+            .segundo-contenedor
+            {
+                margin-top: 101px;
+                height: 760px;
+                margin-left:0;
+                margin-right:0;
+                background-color: #CCC;
+
+            }
+            .renglon-segundo-contenedor
+            {
+                display: flex;
+            }
+
+            .columna-70-segundo-contenedor
+            {
+            display: inline-block;
+             width: 70%;
+            
+            }
+            .columna-30-segundo-contenedor
+            {
+            display: inline-block;    
+            width: 30%;
+            }
+
+            .tercer-contenedor
+            {
+                height: 760px;
+                margin-left:0;
+                margin-right:0;
+                background-color: #CCC;
+            }
+            .renglon-tercer-contenedor
+            {
+                display: flex;
+            }
+
+            .columna-60-tercer-contenedor
+            {
+            display: inline-block;
+             width: 60%;
+            
+            }
+            .columna-50-tercer-contenedor
+            {
+            display: inline-block;    
+            width: 50%;
+            }
+
+            .cuarto-contenedor
+            {
+                height: 100px;
+                margin-left:0;
+                margin-right:0;
+                background-color: #CCC;
+
+            }
+            .renglon-cuarto-contenedor
+            {
+                display: flex;
+            }
+
+            .quinto-contenedor
+            {
+                height: 800px;
+                margin-left:0;
+                margin-right:0;
+                background-color: #CCC;
+
+            }
+            .renglon-quinto-contenedor
+            {
+                display: flex;
+            }
+            .columnas-quinto-contenedor
+            {
+                display: inline-block;
+                width: 33%;
