@@ -84,6 +84,7 @@ body    {
              margin-left:10px;
              margin-right:10px;
              background-color: #F6F6F6;
+            z-index: 10;
              }
 
             .renglon-contenedor-superior
@@ -377,12 +378,14 @@ body    {
             }
             .contenedorimg{
             position: relative;
+                
             }
 
             .image {
               display: block;
               width: 100%;
               height: auto;
+                
             }
 
             .overlay {
