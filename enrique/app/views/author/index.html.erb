@@ -1,0 +1,15 @@
+<h1>Author#index</h1>
+<p>Find me in app/views/author/index.html.erb</p>
+<ul>
+<% for author in @authors %>
+<li>
+<%= author.name %>
+<ul>
+<% for book in author.books %>
+<li><%= book.name %></li>
+<% end %>
+</ul>
+</li>
+<% end %>
+</ul>
+
