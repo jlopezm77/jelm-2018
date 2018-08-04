@@ -1,0 +1,49 @@
+body    
+                {
+                font-family: 'Muli', sans-serif;
+                margin-left:10px;
+                margin-right:10px;
+                }
+
+            .contenedor
+            {
+            margin-top: 100px;
+            height: 550px;
+            margin-left:450px;
+            margin-right:500px;
+            background-color: #F6F6F6;
+            border border-radius: 25px;
+            }
+            .renglon-contenedor
+            {
+            display: flex;
+                align-content: center;
+            }
+
+            .columnas-contenedor
+            {
+            display: inline-block;
+            width: 25%;
+                
+                            }
+            button
+            {
+            width: 99px;
+            height: 99px;
+            font-size: 30px;
+            }
+
+            #panelresultado
+            {
+                display: block;
+                text-align: center;
+                font-size: 40px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+                width: 400px;
+                height: 100px;
+                background-color: #fff;
+                overflow-y: scroll;
+            }

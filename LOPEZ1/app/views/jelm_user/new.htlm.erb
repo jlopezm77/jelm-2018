@@ -1,0 +1,16 @@
+<form method="post" action= "<%= usuarios_nuevo_path %>" >
+<input type="hidden" value "<%= form_authenticity_token %>" name="authenticity_token">
+    <div>
+        <label>
+        Nombre
+        </label>
+        <input type="text" placeholder="Ingrese el nombre" name="jelm-user[name]">
+    </div>
+    <div>
+        <label>
+        Email
+        </label>
+        <input type="email" placeholder="Ingrese el correo electrónico" name= 'jelm-user(email)'>
+    </div>
+    <button type="submit">Enviar</button
+</form>

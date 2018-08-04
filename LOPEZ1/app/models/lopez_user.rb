@@ -1,0 +1,2 @@
+class LopezUser < ApplicationRecord
+end
